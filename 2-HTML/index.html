@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Responsiveness -->
+        <meta name="viewport" content="width=device-width" initial-scale="1" />
+
+        <title>This is the title!!!</title>
+
+        <!-- W3CSS -->
+        <link rel="stylesheet" href="styles/w3.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- CSS -->
+        <style media="screen">
+
+            body {
+                font-family: 'Roboto Mono', monospace;
+                background: #f0f0f2;
+            }
+
+            /* Titles */
+            .subtitle {
+                text-shadow: 2px 2px 4px blue;
+                text-align: center;
+            }
+
+            /* Main Content */
+            .main-content {
+                max-width: 800px;
+                margin: auto;
+                padding: 50px;
+                border-radius: 10px;
+            }
+
+            /* Links */
+            a.menu:link {
+                color: red;
+            }
+            a.menu:visited {
+                color: dark-gray;
+            }
+            a.menu:hover {
+                color: lime;
+            }
+            a.menu:active {
+                color: lime;
+            }
+            a.menu {
+                text-decoration: none;
+            }
+
+            /* Images */
+
+            .responsive-image {
+              width: 100%;
+              max-width: 400px;
+              height: auto;
+              display: block;
+              margin: auto;
+            }
+
+            figcaption {
+                text-align: center;
+                font-style: italic;
+                color: purple;
+            }
+
+            /* Media Queries */
+
+            /* Medium Screens */
+            @media screen and (min-width: 700px) {
+                .main-content {
+                    background-color: beige;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+
+            <!-- Headers -->
+            <header>
+
+                <h1 style="text-align:center;">Hello World!</h1>
+
+                <h3 class="subtitle">This is a smaller heading!</h3>
+
+            </header>
+
+
+
+
+            <hr>
+
+
+
+
+            <!-- Navigation -->
+            <nav>
+                <p>This will be the navigation area...</p>
+            </nav>
+
+
+
+            <hr>
+
+
+
+
+            <!-- Paragraphs -->
+            <section>
+
+                <h4>Paragraphs</h4>
+
+                <p>This is an example web-page...</p>
+
+                <p>This is a paragraph <br>
+                with a line break</p>
+
+                <p>This is a paragraph with some <b>bold text</b>...</p>
+
+                <p>This is a paragraph with some <strong>bold text</strong>...</p>
+
+                <p style="font-weight: bold;">This whole paragraph is bold!</p>
+
+                <p>Here is some <em>emphasized text</em>!</p>
+
+                <p>Here is some <u>underlined</u> text!</p>
+
+                <p>Here is some more <ins>underlined</ins> text!</p>
+
+                <p>Here goes a <sup>superscript</sup>...</p>
+
+                <p>Here goes a <sub>subscript</sub>...</p>
+
+                <p>Here is a paragraph with <del>"deleted"</del> text...</p>
+
+                <p>Here goes a <q>quote</q>... kind of :-/</p>
+
+                <p><blockquote>
+                A Block Quote
+
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quo dicta officiis maxime aliquid itaque amet. Ab iste corrupti possimus eligendi illo officiis ratione rerum voluptates asperiores corporis fugit sit cupiditate commodi dolore, autem provident eius? Laborum aspernatur optio quo eaque, consequuntur repellendus libero, labore obcaecati blanditiis a eum laboriosam!
+                </blockquote></p>
+
+                <p>Here is some <mark>marked text</mark>...</p>
+
+            </section>
+
+
+
+
+            <hr>
+
+
+
+
+            <!-- Lists -->
+            <article class="">
+
+                <h4>Lists</h4>
+
+                <ul style="list-style-type: none;">
+                    <li><a href="https://www.joefly.site" class="menu">Portfolio</a></li>
+                    <li><a href="https://www.sugarpaws.fun" class="menu">Sugarpaws</a></li>
+                </ul>
+
+                <ol style="list-style-type: lower-alpha">
+                    <li><ins>Walk the dog</ins></li>
+                    <li><em>Watch a movie</em></li>
+                    <li><del>Get groceries</del></li>
+                </ol>
+
+            </article>
+
+
+
+
+            <hr>
+
+
+
+            <!-- Images -->
+            <aside class="">
+                <figure>
+                    <img src="https://lh3.googleusercontent.com/-J8UAAFaXefNlNEMj3cV3U1OCYjn7AceFFwQqEn_X5iEQm2yZAqRu_UsNg1UKyYoJRrZzKYVFPD-ASUC6ofsJCfiva3gCGzeCI8i6DqiRHK4rZG-ceBzwSiiuKfKpdzsO8saslrzVkaK9bVlxRqiYEf4MYPPyI5Wsc1kQB1V243-XeKpliYkWAXjxnQEvx5MBq358aoB3Yu5sbpBsoUDsxGtKfaOOPr-9p0xNEuCSpI6VbzTLU8ubYp5nWYRAcBGiFbxyA8ZYujWvhqt9tBZu7qDFDDbQGzTicgExZv3ALr1qyS93qvd0aO9X1klU-EmtOj_LI1NCIe39h9n8saNflu0mG8oZDpfKzaxsoaYqggo2YLlKN8MfQnDd7P7vpf-PrUzeSIuZ9WuSCS820b2JwaN8ETtkRPIeXiV8vrAws4NgqRstEVHpEY9xkbPlHOG9NIG93U_4NQK25ANlY3R8dbymME6kyOZjHhmFAxYSLiAiuQ__tc7JTxoSE7JHqsgIrnLFkI4BWkS8rkvBotEwdeziy5G3nK2NSnRt9frHvpDgAvLXlPwPQ5r8MDZWFYQ9B5s2YnQStluAPumSaEwQKUwfiRWSE2jn9WqWUVnI9AhHe1ExO1RfxKTKGDQURy9X9q2k0mvB7lcBc5PPyFTQoM1jW-10jIC=w633-h843-no" alt="Blu After a Walk" class="responsive-image">
+                    <figcaption>Blu After a Walk</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/bella_sleeping.jpg" alt="Bella Sleeping" class="responsive-image">
+                    <figcaption>Bella Sleeping</figcaption>
+                </figure>
+            </aside>
+
+
+
+            <hr>
+
+
+
+            <!-- Forms -->
+            <aside>
+
+                <form class="w3-container w3-card-4 w3-text-teal w3-margin w3-padding" action="index.html" method="post">
+
+                    <p>Text Input:</p>
+
+                    <label class="w3-text-blue" for="fname">First Name</label>
+                    <input class="w3-input w3-border w3-light-grey" type="text" name="firstname" placeholder="Your first name...">
+
+                    <label class="w3-text-purple" for="lname">Last Name</label>
+                    <input class="w3-input w3-border w3-light-grey" type="text" name="lastname" placeholder="Your last name...">
+
+
+
+
+
+                    <br><br>
+
+
+
+
+
+
+                    <p>Inputs with Icons (Styled using W3CSS):</p>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:50px">
+                            <i class="w3-xxlarge fa fa-user"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border" name="fname" type="text" placeholder="First Name">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:50px">
+                            <i class="w3-xxlarge fa fa-user"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border" name="lname" type="text" placeholder="Last Name">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:50px">
+                            <i class="w3-xxlarge fa fa-envelope-o"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border" name="email" type="email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:50px">
+                            <i class="w3-xxlarge fa fa-phone"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border" name="phone" type="phone" placeholder="Phone">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:50px">
+                            <i class="w3-xxlarge fa fa-pencil"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+                        </div>
+                    </div>
+
+
+
+
+
+                    <br><br>
+
+                    <p>Checkbox Input:</p>
+                    <label class="w3-text-orange" for="lname">Milk</label>
+                    <input class="w3-check" type="checkbox" checked="checked">
+
+                    <label class="w3-text-green" for="lname">Cereal</label>
+                    <input class="w3-check" type="checkbox" checked="checked">
+
+                    <label class="w3-text-yellow" for="lname">Coffee</label>
+                    <input class="w3-check" type="checkbox" checked="checked">
+
+
+
+
+
+                    <br><br>
+
+                    <p>Select Input:</p>
+                    <label class="w3-text-brown" for="country">Country</label>
+                    <select class="w3-select" id="country" name="country">
+                        <option value="" disabled selected>Choose your country...</option>
+                        <option value="USA">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                    </select>
+
+
+
+
+
+                    <br><br>
+
+                    <p>Radio Buttons:</p>
+                    <input class="w3-radio" type="radio" name="gender" value="male" checked>
+                    <label for="gender">Male</label>
+
+                    <input class="w3-radio" type="radio" name="gender" value="female">
+                    <label for="gender">Female</label>
+
+                    <input class="w3-radio" type="radio" name="gender" value="questionable" disabled>
+                    <label for="gender">Don't Know...(disabled)</label>
+
+
+
+
+
+                    <br><br>
+
+                    <p>Form Elements in a Grid</p>
+
+                    <div class="w3-third">
+                        <input type="text" class="w3-input w3-border" placeholder="One">
+                    </div>
+                    <div class="w3-third">
+                        <input type="text" class="w3-input w3-border" placeholder="Two">
+                    </div>
+                    <div class="w3-third">
+                        <input type="text" class="w3-input w3-border" placeholder="Three">
+                    </div>
+
+
+
+
+
+                    <br><br>
+
+                    <p>Input Buttons:</p>
+
+                    <input class="w3-btn w3-blue-grey w3-round" type="submit" name="" value="submit">
+                </form>
+
+            </aside>
+
+
+
+            <hr>
+
+
+
+            <!-- Tables -->
+            <section>
+                <p>Tables:</p>
+                <table class="w3-table-all">
+                    <caption>Favorite Colors (Caption)</caption>
+                    <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Favorite Color</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td>Ben</td>
+                          <td>Blue</td>
+                        </tr>
+                        <tr>
+                          <td>David</td>
+                          <td>Purple</td>
+                        </tr>
+                        <tr>
+                          <td>Jeremy</td>
+                          <td>Orange</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+            <!-- Links -->
+
+            <section>
+            <p>Links:</p>
+                <p><a href="https://www.google.com">
+                    <img src="images/snoopy.jpg" alt="Snoopy Image" height="100px" width="100px">
+                </a></p>
+            </section>
+
+
+
+            <footer>
+                <!-- Mail To Address -->
+
+                <p>This will be the footer</p>
+
+                <h4>Mail To:</h4>
+                <p>Feel free to contact me anytime at <a href="mailto:superjoefly@gmail.com">superjoefly@gmail.com</a></p>
+            </footer>
+
+
+
+
+        </div>
+
+    </body>
+</html>

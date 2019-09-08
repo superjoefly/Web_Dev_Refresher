@@ -13,4 +13,4 @@ Refreshing my WebDev Skills -- Complete Web Developer Course 2.0 -- Udemy
 
 ## Acknowledgments
 
-* Rob Percival
+* Complete Web Developer Course 2.0 -- Udemy -- Rob Percival

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS3 Refresher</title>
+
+        <!-- internal css -->
+        <style media="screen">
+            p {
+                font-size: 100%;
+                text-decoration: line-through;
+            }
+
+            /* using classes / pseudo-classes */
+            p.underline-on-hover:hover {
+                text-decoration: underline;
+                color: purple;
+                font-size: 1.5em;
+            }
+
+            /* using ID and divs */
+            #first-div {
+                display: inline-block;
+                height: 100px;
+                width: 100px;
+                border: 2px solid purple;
+                background: lime;
+                margin: 5px;
+            }
+            #second-div {
+                display: inline-block;
+                float: right;
+                height: 100px;
+                width: 100px;
+                border: 2px solid red;
+                margin: 5px;
+            }
+            #third-div {
+                display: block;
+                height: 100px;
+                width: 100px;
+                border: 2px solid green;
+                background: pink;
+                margin: 5px;
+            }
+            #fourth-div {
+                height: 100px;
+                width: 100px;
+                border: 2px solid green;
+                background: orange;
+                margin: 5px;
+                float: left;
+            }
+            .clearfix::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- inline styling -->
+        <h1 style="font-family: mono; color: orange; text-align: center; border: 2px solid red; box-shadow: 2px 2px 4px #87D1D3; padding: 20px;">This is a header!</h1>
+
+        <p style="color: red;">This is a paragraph.</p>
+
+        <p class="underline-on-hover">Underline on hover!</p>
+
+        <div id="first-div">
+            <p>This is the first div</p>
+        </div>
+
+        <!-- Floated right -->
+        <div id="second-div">
+            <p>This is the second div</p>
+        </div>
+
+        <div id="third-div">
+            <p>This is the third div</p>
+        </div>
+
+        <!-- Floated left -->
+        <div id="fourth-div">
+            <p>This is the third div</p>
+        </div>
+
+        <!-- Clear Float -->
+        <div class="clearfix"></div>
+
+        <p>Testing clearing of float...</p>
+
+    </body>
+</html>

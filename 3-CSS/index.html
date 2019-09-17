@@ -38,6 +38,9 @@
             }
             #third-div {
                 display: block;
+                position: relative;
+                left: 300px;
+                top: 50px;
                 height: 100px;
                 width: 100px;
                 border: 2px solid green;
@@ -53,9 +56,20 @@
                 float: left;
             }
             .clearfix::after {
-              content: "";
-              clear: both;
-              display: table;
+                content: "";
+                clear: both;
+                display: table;
+            }
+            #fifth-div {
+                display: block;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                height: 100px;
+                width: 100px;
+                border: 2px solid blue;
+                background: aqua;
+                margin: 5px;
             }
         </style>
     </head>
@@ -83,13 +97,19 @@
 
         <!-- Floated left -->
         <div id="fourth-div">
-            <p>This is the third div</p>
+            <p>This is the fourth div</p>
         </div>
 
         <!-- Clear Float -->
         <div class="clearfix"></div>
 
         <p>Testing clearing of float...</p>
+
+        <!-- Positioning -->
+        <div id="fifth-div">
+            <p>This is the fifth div</p>
+        </div>
+
 
     </body>
 </html>
